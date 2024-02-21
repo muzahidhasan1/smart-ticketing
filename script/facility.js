@@ -1,4 +1,4 @@
-function applycoupon() {
+function applydiscountcoupon() {
     let grandTotal = document.getElementById('grand-total');
     const inputValue = document.getElementById('coupon-field').value;
     const cuopon1 = document.getElementById('coupon1').innerText;

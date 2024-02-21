@@ -11,24 +11,23 @@
 <body>
   <header></header>
   <main id="home-screen" class="">
-    <!-- navbar section -->
     <section class="container mx-auto">
       <div class="navbar bg-base-100">
         <div class="navbar-start">
           <div class="dropdown">
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 " fill="none" viewBox="0 0 24 24"
                 stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
               </svg>
             </div>
-            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+            <ul tabindex="0" class="menu menu-sm dropdown-content  z-[1]  shadow bg-base-100 rounded-box w-52 p-2 mt-3">
               <li><a>Home </a></li>
               <li>
                 <a>About</a>
               </li>
               <li><a>Destination</a></li>
-              <li><a>search</a></li>
+              <li><a>Search</a></li>
             </ul>
           </div>
           <a class="btn btn-ghost text-xl">Bus-ticket</a>
@@ -40,23 +39,20 @@
               <a>About</a>
             </li>
             <li><a>Destination</a></li>
-            <li><a>search</a></li>
+            <li><a>Search</a></li>
           </ul>
         </div>
         <div class="navbar-end">
-          <a class="btn text-green-400 bg-green-50">Bus <img src="images/bus-icon.png" alt=""></a>
+          <a class="btn  bg-green-50 text-green-400">Bus <img src="images/bus-icon.png" alt=""></a>
         </div>
       </div>
     </section>
-
-    <!-- banner section-->
-
-    <section class=" container mx-auto ">
+    <section class="container mx-auto ">
       <div class="hero min-h-screen" style="background-image: url(images/banner.png);">
-        <div class="hero-overlay bg-opacity-60"></div>
+        <div class="hero-overlay bg-opacity-50"></div>
         <div class="hero-content text-center text-neutral-content">
           <div class="max-w-md">
-            <h1 class="mb-6 text-4xl font-bold">End-to-End Travel with <br> <span>Greenline Paribahan</span></h1>
+            <h1 class="mb-5 font-bold text-4xl ">End-to-End Travel With <br> <span>Greenline Paribahan</span></h1>
             <h3></h3>
             <p class="mb-6">All of our buses are driven by Expert driver and they are Gps tracted.</p>
             <a href="#paribahan-section"><button class="btn bg-[#1DD100] border-none ">Get Started</button></a>
@@ -64,13 +60,12 @@
         </div>
       </div>
     </section>
-    <!-- cupon section -->
     <section class="container mx-auto ">
-      <h1 class="text-center my-9 font-bold text-2xl">Best offers for you</h1>
-      <div class="flex justify-evenly my-8">
+      <h1 class="text-center my-9 font-bold text-2xl">Best offers for you.</h1>
+      <div class="flex my-8 justify-evenly">
         <div>
           <div class="card bg-primary text-primary-content relative bg-amber-400">
-            <div class=" flex justify-between p-7  py-11 gap-12  mb-10">
+            <div class=" flex justify-between p-7 py-11 mb-10 gap-12">
 
               <div class="items-center">
                 <h2 class="card-title text-black">15% OFF</h2>
@@ -102,15 +97,14 @@
             </div>
           </div>
           <div class="absolute -bottom-96 left-90 ">
-            <img src="images/cupon-devider.png" alt="">
+            <img src="images/cupon-devider.png">
           </div>
         </div>
       </div>
       <div class="flex justify-center mb-10">
-        <button class=" border-green-400 text-green-500  p-3 rounded-md border-2">See All Offers</button>
+        <button class=" border-green-400 text-green-500 p-3 border-2 rounded-md ">See All Offers</button>
       </div>
     </section>
-    <!-- paribahan section -->
     <section id="paribahan-section" class="container mx-auto my-10 ">
       <div class=" text-center mb-10">
         <h2 class="text-2xl">Grenline Paribahan</h2>
@@ -118,9 +112,9 @@
       </div>
       <div class="flex justify-evenly  py-10 bg-[#FFFFFF]">
         <div class="relative pt-5">
-          <div class="flex gap-36">
-            <div class="flex gap-4">
-              <img src="images/bus-logo.png" alt="">
+          <div class="flex gap-35">
+            <div class="flex gap-4.5">
+              <img src="images/bus-logo.png">
               <div>
                 <h3 class="text-2xl ">Greenline Paribahan</h3>
                 <p>Coach-009-WEB ! AC_Business</p>
@@ -128,7 +122,7 @@
             </div>
             <div class="flex items-center gap-2 ">
               <img class="" src="images/seat-gray.png" alt="">
-              <h3 class=" text-green-400 bg-green-50"><span id="highest-seat">40</span> Seats left</h3>
+              <h3 class=" text-green-400 bg-green-50"><span id="maximum-seat">40</span> Seats left</h3>
             </div>
           </div>
           <div class="flex justify-between my-8 p-5 rounded-xl bg-[#F7F8F8]">
@@ -138,21 +132,21 @@
           <div class="border-dashed border-2 border-gray-300"></div>
           <div class="flex justify-between my-8 p-5 rounded-xl bg-[#F7F8F8]">
             <h3>Departure Time</h3>
-            <h2>9.PM</h2>
+            <h2>9:00 PM</h2>
           </div>
-          <div class="border-dashed border-2 border-gray-300"></div>
+          <div class="border-dashed border-3 border-gray-300"></div>
           <div class="flex justify-around my-8">
             <h3 class="p-2 rounded-md bg-[#F7F8F8]">Boarding Point - Laxmipur</h3>
             <h3 class="p-2 rounded-md bg-[#F7F8F8]">Dropping Point - Bogura</h3>
-            <h3 class="p-2 rounded-md bg-[#F7F8F8]">Est. Time - 11 Hour</h3>
+            <h3 class="p-2 rounded-md bg-[#F7F8F8]">Est. Time - 11 Hours</h3>
           </div>
           <div class="absolute -bottom-1 -right-44">
-            <img src="images/info-devider.png" alt="">
+            <img src="images/info-devider.png">
           </div>
         </div>
         <div class="items-center pt-36">
-          <img src="images/fare.png" alt="">
-          <h1 class="text-4xl "> <span id="per-ticket">550</span> Taka</h1>
+          <img src="images/fare.png">
+          <h1 class="text-4xl"> <span id="per-ticket">550</span> Taka</h1>
           <p>Per Seat</p>
         </div>
       </div>
@@ -172,8 +166,8 @@
             <h3 class="text-green-400 font-bold ">Selected</h3>
           </div>
         </div>
-        <div class=" flex justify-end mt-5  ">
-          <img class="p-2 px-5 rounded-md bg-slate-400">
+        <div class=" flex justify-end mt-5">
+          <img class="p-2 bg-slate-400 px-5 rounded-md ">
         </div>
         <div class="flex mt-2 justify-between">
           <h1 class="p-5">A</h1>
@@ -254,29 +248,25 @@
           </div>
 
           <div class="flex justify-between mb-4">
-            <h2 class="font-bold">Seat <span id="seat-number" class="bg-green-500 px-2 rounded-md text-white">0</span>
+            <h2 class="font-bold">Seat <span class="bg-green-500 px-2 rounded-md text-white" id="seat-number">0</span>
             </h2>
-            <h3 class="font-bold">class</h3>
+            <h3 class="font-bold">Class</h3>
             <p class="font-bold">Price</p>
           </div>
 
-          <div id="ticket-cost" class="flex">
+          <div class="flex" id="ticket-vara" >
 
           </div>
           <hr>
-          <div class="flex justify-between p-3 mb-4 rounded-md">
+          <div class="flex justify-between mb-4 rounded-md p-3">
             <p>Total Price</p>
             <p id="total-price"> 0</p>
           </div>
           <label id="coupon-level" class="input input-bordered items-center mb-4 mt-5 flex ">
             <input id="coupon-field" placeholder="Have any cupopon?" type="text" class="grow">
-            <button onclick="applycoupon()" id="apply-btn" class="btn  bg-[#1DD100] border-none p-3 rounded-xl">Apply</button>
+            <button onclick="applydiscountcoupon()" id="apply-btn" class="btn  bg-[#1DD100] border-none p-3 rounded-xl">Apply</button>
 
           </label>
-
-          
-
-
           <div class="flex justify-between p-3 rounded-md mb-4">
             <p> Grand Total</p>
             <p id="grand-total">0</p>
@@ -285,27 +275,27 @@
           <div>
             <h3>Passenger Name*</h3>
             <label class="input input-bordered flex items-center mt-5 mb-7">
-              <input id="name" type="text" class="grow" placeholder="Enter your name" />
+              <input type="text" class="grow" placeholder="Enter your name" id="name"/>
             </label>
             <h3>Phone Number*</h3>
             <label class="input input-bordered flex items-center mt-5 mb-7">
               <input id="Phone-Num" type="text" class="grow" placeholder="Enter your Phone number" />
             </label>
-            <h3>Email ID</h3>
+            <h3>Email Adress</h3>
             <label class="input input-bordered flex items-center mt-5 mb-7">   
-              <input id="email" type="text" class="grow" placeholder="Enter your Email ID" />
+              <input id="email" type="text" class="grow" placeholder="Please Enter Your Email Adress" />
             </label>
             <button class="btn w-full bg-[#1DD100]"  id="modal" disabled onclick="my_modal_1.showModal()">Next</button>
-            <dialog id="my_modal_1" class="modal">
+            <dialog  class="modal" id="my_modal_1">
               <div class="modal-box">
                 <img class="mx-auto mb-3" src="images/success.png" alt="">
-                <h3 class="font-bold text-lg text-center">SUCCESS</h3>
+                <h3 class="font-bold text-lg text-center">Success</h3>
                 <p class="py-4 text-center">Thanks for Booking Our Bus Service. <br>
                   We are working give our best srvice</p>    
-                  <p class="text-center">Easily you will find a confirmation message in your email.</p>
+                  <p class="text-center">Easily you will recieve a confirmation message in your email.</p>
                 <div class="modal-action">
                   <form method="dialog">
-                    <button  class="btn mr-32  px-20 bg-[#1DD100] rounded-xl">Continue</button>
+                    <button  class="btn px-20 mr-32 bg-[#1DD100] rounded-xl">Continue</button>
                   </form>
                 </div>
               </div>
@@ -344,6 +334,6 @@
     </nav>
   </footer>
   <script src="script/seatTicket.js"></script>
-  <script src="script/utiliti.js"></script>
+  <script src="script/facility.js"></script>
 </body>
 </html>

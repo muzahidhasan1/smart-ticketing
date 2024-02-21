@@ -9,7 +9,7 @@ btn.addEventListener("click", function(event){
             priceCount= priceCount+550;
 
            setInnerText("seat-number", count);
-           setInnerText("highest-seat", seatCount);
+           setInnerText("maximum-seat", seatCount);
 
            event.target.style.backgroundColor="#1DD100";
            
@@ -19,7 +19,7 @@ btn.addEventListener("click", function(event){
 
            const seatName=event.target.innerText
           
-           const selectedContainer=document.getElementById("ticket-cost");
+           const selectedContainer=document.getElementById("ticket-vara");
 
            const div=document.createElement("div")
            const h3=document.createElement("h3")
@@ -49,7 +49,7 @@ btn.addEventListener("click", function(event){
            const sum2=convertedGrandTotal+parseInt(price);
            setInnerText("grand-total", sum2);  
                if(count>4){
-                alert("you already selected 4 seat")
+                alert("You already selected 4 seats")
                }
                else{
                 btn.removeEventListener("click",arguments.callee);
